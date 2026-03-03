@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        body
+        {
+            margin: 0px;
+        }
+        
+        header
+        {
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    nav
+        {
+        background-color:rgb(255, 0, 0);
+        width: 100%;
+        height: 50px;
+        }
+        main
+        {
+        background-color: pink;
+        height: auto;
+        
+        }
+        aside
+        {
+        background-color: green;
+        width: 32%;
+        margin: 5px;
+        float: left;
+        }
+        section
+        {
+        background-color: white;
+        float: left  ;
+        width: 32%;
+        margin: 5px;
+        }
+        article
+        {
+        background-color: red;
+        float: left  ;
+        width: 32%;
+        margin: 5px;
+        }
+        footer
+        {
+        background-color: rgb(255, 255, 0);
+        height: 100px;
+        clear: both;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        }
+
+        p
+        {
+        text-align: justify;
+        margin: 20px;
+        }
+        h2
+        {
+            margin: 20px;
+        }
+        @media screen and (max-width:800px)
+        {
+        aside, section, article
+        {
+        width: 100%;
+        }
+        }
+    </style>
+</head>
+<body>
+<header><b><h1>HEADER</h1></b></header>
+ <nav></nav>
+ <main>
+    <aside>
+        <h2>aside</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam, id maiores illo 
+        provident esse voluptatum cumque doloremque repellendus, sunt deleniti dolores, nostrum atque
+        consequuntur deserunt. Eaque nam assumenda velit?
+    </p>
+    </aside>
+    <section>
+        <H2>section</H2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam, id maiores illo 
+        provident esse voluptatum cumque doloremque repellendus, sunt deleniti dolores, nostrum atque
+        consequuntur deserunt. Eaque nam assumenda velit?</p>
+    </section>
+    <article>
+        <h2>article uno</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quisquam, id maiores illo 
+        provident esse voluptatum cumque doloremque repellendus, sunt deleniti dolores, nostrum atque
+        consequuntur deserunt. Eaque nam assumenda velit?</p>
+    </article>
+ </main>
+    <footer>
+        <h2>hi footer</h2>
+    </footer>
+</body>
+</html>
